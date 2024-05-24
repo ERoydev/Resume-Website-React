@@ -1,0 +1,55 @@
+.site-header .wrapper {
+    width: 90%;
+}
+
+@media (max-width: 541px) {
+    .profile-showcase .tech-stack {
+        display: none;
+    }
+}
+
+@media (max-width: 1814px) {
+    .container {
+        width: 70%;
+    };
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+    };
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 14px;
+    };
+
+}
+
+/* Styles for mobile and tablets */
+@media (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+        display: none!important;
+    }
+
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
+
+@media (max-width: 660px) {
+    .contact .container-header {
+        opacity: 0.0000000001;
+    }
+
+    .contact {
+        margin-top: 0;
+
+    }
+}

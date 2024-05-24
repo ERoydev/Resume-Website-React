@@ -1,0 +1,55 @@
+.projects-showcase .card {
+    background-color: hsla(207, 76%, 64%, 0.082);
+    border-radius: 15px;
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.projects-showcase .card .techstack div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-showcase .card svg {
+    width: 1.1em;
+    fill: rgb(11, 57, 126);
+}
+
+.projects-showcase .card .title {
+    font-size: 1.2em;
+    color: rgb(21, 76, 158);
+    padding: 1em 0 0.4em 0;
+}
+
+.projects-showcase .card img {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.projects-showcase .card .description {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.753);
+    font-size: 0.95em;
+}
+
+.projects-showcase .card .description,
+.projects-showcase .card .techstack {
+    padding: 1.5em 2em 1.5em 2em;
+    color: rgb(133, 133, 133);
+    
+}
+
+.projects-showcase .card .techstack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.projects-showcase .card:hover {
+    background-color: hsla(207, 60%, 62%, 0.144);
+    border-bottom: 2px solid rgb(35, 83, 128);
+}
