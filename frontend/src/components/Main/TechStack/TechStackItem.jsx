@@ -2,6 +2,7 @@ export default function TechStackItem({
     img,
     name
 }) {
+
     return(
         <div className="item upwards">
             <div>
