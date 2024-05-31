@@ -1,6 +1,6 @@
 export default function Projects() {
     return(
-        <div className="projects-showcase reveal">
+        <div className="projects-showcase reveal">6+6
             <div className="container-header">
                 <h1>Projects</h1>
                 <p>- Own Projects -</p>

@@ -13,7 +13,7 @@ export default function ProjectsItem() {
                 <p>Website for users to create CV for their job applications.</p>
             </div>
 
-            <div className="techstack">
+            <div className="techstack"> 
                 <div>
                     <p>Python/Django</p>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
